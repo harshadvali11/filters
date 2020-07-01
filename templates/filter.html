@@ -1,0 +1,77 @@
+{% load usd_filter %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filters</title>
+</head>
+<body>
+    <center>
+    <!--filters without arguments-->
+    <!--
+        <h1>{{wish|upper}}</h1>
+        <h1>{{wish|lower}}</h1>
+        <h1>{{wish|capfirst}}</h1>
+        <h1>{{wish|title}}</h1>
+        <h1>{{wish|title|lower}}</h1>
+    {% if wish|length < 20 %}
+        <h1>{{wish|length}}</h1>
+    {% else %}
+        <h1>length is too small</h1>
+    {% endif %}
+        
+        filters with arguments
+        <h1>{{data|date:'F D d Y'}}</h1>
+        <h1>{{wish|truncatewords:'4'}}</h1>
+        <h1>{{wish|truncatechars:'4'}}</h1>
+        <h1>{{wish|slice:'4'}}</h1>
+        <h1>I have {{count}} dog{{count|pluralize}}</h1>
+        <h1>I have {{count}} mango{{count|pluralize:'es'}}</h1>
+        <h1>these mango{{count|pluralize:'es'}} {{count|pluralize:'is,are'}} mine</h1>
+    -->
+
+        <h1>{{wish|rep:'h'}}</h1>
+        <h1>{{wish|lowerr}}</h1>
+        <h1>hai {{name|pre}}</h1>
+        <h1>{{wish|counting:'ha'}}</h1>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </center>
+    
+</body>
+</html>
